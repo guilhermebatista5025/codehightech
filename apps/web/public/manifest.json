@@ -1,0 +1,33 @@
+{
+  "name": "CodeHighTech",
+  "short_name": "CHT",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "display": "standalone",
+  "orientation": "landscape",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Continuar missão atual",
+      "url": "/editor",
+      "description": "Voltar para o editor e continuar de onde parou"
+    },
+    {
+      "name": "Ver progresso",
+      "url": "/profile",
+      "description": "Veja seu cargo, streak e achievements"
+    }
+  ]
+}
